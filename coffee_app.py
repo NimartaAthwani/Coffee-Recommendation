@@ -90,7 +90,7 @@ def recommend_coffee(flavor, temperature, caffeine):
 # ---------------- Streamlit UI ---------------- #
 def main():
     st.set_page_config(page_title="Coffee Recommendation Engine ☕", page_icon="☕")
-    st.title("☕ Personalized Coffee Recommendation")
+    st.title("☕ Coffee Recommendation")
     st.write("Choose your preferences and get your perfect coffee suggestion!")
 
     # Form
@@ -115,3 +115,4 @@ def main():
 if __name__ == "__main__":
     init_db()
     main()
+
